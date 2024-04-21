@@ -5,6 +5,7 @@ body{
 }
 main{
   padding-bottom: 20px;
+  background-color: #eee;
 }
 h1{
   font-family: "Tourney", sans-serif, "M PLUS 1 Code", monospace;
