@@ -29,7 +29,7 @@ p{
 }
 .course-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-bottom: 2vw;
 }
 .course-item {
