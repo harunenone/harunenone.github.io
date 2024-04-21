@@ -18,6 +18,7 @@ h2{
 }
 p{
     margin-bottom: 1.5vw;
+    font-size: 1.3vh;
 }
 main div:nth-child(2){
     margin-top: 40px;
