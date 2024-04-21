@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
+body{
+  color: grey;
+}
+main{
+  padding-bottom: 20px;
+}
+h1{
+  font-family: "Tourney", sans-serif, "M PLUS 1 Code", monospace;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+section:first-child h1{
+  padding-top: 90px;
+  margin-bottom: 20px;
+}
+section:nth-child(n+2) h1{
+  margin: 20px 0;
+}
+p{
+  font-size: 1.3vw;
+  font-family: "M PLUS 1 Code", monospace;
+}
+/* グリッド */
+.course {
+  background-color: #e3fcf3;
+}
+.course-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2vw;
+}
+.course-item {
+  text-align: center;
+  width: 30%;
+}
+.course-item img {
+  cursor: pointer;
+  width: 90%;
+  margin-bottom: 0.5vw;
+}
+.section {
+  padding: 60px;
+}
+/* 画像拡大 */
+#grayDisplay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100% !important;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+#grayDisplay img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 90%;
+  max-height: 90%;
+  height: 90%;
+  object-fit: contain;
+  padding-top: 55px;
+}
+/* ローディング */
+#loading{
+  background-color: gray;
+  position:fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+}
+#loading-screen{
+  background-color: #f0f0f0;
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  translate: 0 100vh;
+}
+#loading p{
+  font-family: "Tourney", sans-serif;
+  font-size: 2.5rem;
+  color: #f0f0f0;
+}
