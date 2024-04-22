@@ -8,7 +8,7 @@ main{
 }
 h1{
   font-family: "Tourney", sans-serif, "M PLUS 1 Code", monospace;
-  font-size: 5vh;
+  font-size: 4vh;
   text-align: center;
   font-weight: 500;
 }
@@ -20,7 +20,7 @@ section:nth-child(n+2) h1{
   margin: 20px 0;
 }
 p{
-  font-size: 1vh;
+  font-size: 1.1vh;
   font-family: "M PLUS 1 Code", monospace;
 }
 /* グリッド */
