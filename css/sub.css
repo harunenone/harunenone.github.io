@@ -12,12 +12,12 @@ h1{
 }
 h2{
     font-size: 2vh;
-    padding-bottom: 0.5vw;
+    padding-bottom: 1vw;
     font-family: "Murecho", sans-serif;
     font-weight: 400;
 }
 p{
-    margin-bottom: 1.5vw;
+    margin-bottom: 3vw;
     font-size: 1.3vh;
 }
 main div:nth-child(2){
