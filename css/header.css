@@ -50,7 +50,7 @@
 }
 .openbtn{
     position:fixed;
-    z-index: 9999;
+    z-index: 9995;
     top: 7px;
     right: 10px;
     cursor: pointer;
