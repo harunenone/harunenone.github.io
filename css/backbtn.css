@@ -1,0 +1,10 @@
+#page_top {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  opacity: 0.5;
+}
+.c-up-to-btn_img{
+  width: 45px;
+  height: 45px;
+}
