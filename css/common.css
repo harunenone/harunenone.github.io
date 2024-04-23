@@ -72,6 +72,7 @@ p{
   z-index: 9999;
   display: grid;
   place-items: center;
+  font-weight: 900;
 }
 #loading-screen{
   background-color: #f0f0f0;
