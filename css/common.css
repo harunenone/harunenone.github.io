@@ -30,7 +30,8 @@ p{
 .course-wrapper {
   display: flex;
   justify-content: center;
-  padding-bottom: 2vw;
+  padding-bottom: 10px;
+
 }
 .course-item {
   text-align: center;
