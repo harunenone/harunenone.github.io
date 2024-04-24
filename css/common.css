@@ -12,6 +12,9 @@ h1{
   text-align: center;
   font-weight: bold;
 }
+section{
+  margin-bottom: 50px;
+}
 section:first-child h1{
   padding-top: 90px;
   margin-bottom: 20px;
