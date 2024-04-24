@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 body{
   color: gray;
 }
@@ -6,10 +7,9 @@ main{
   padding-bottom: 35px;
 }
 h1{
-  font-family: "Tourney", sans-serif, "M PLUS 1 Code", monospace;
+  font-family: "Poiret One", sans-serif;
   font-size: 4vh;
   text-align: center;
-  font-weight: bold;
 }
 section:first-child h1{
   padding-top: 90px;
@@ -72,7 +72,6 @@ p{
   z-index: 9999;
   display: grid;
   place-items: center;
-  font-weight: bold;
 }
 #loading-screen{
   background-color: #f0f0f0;
@@ -82,7 +81,7 @@ p{
   translate: 0 100vh;
 }
 #loading p{
-  font-family: "Tourney", sans-serif;
+  font-family: "Poiret One", sans-serif;
   font-size: 2.5rem;
   color: #f0f0f0;
 }
