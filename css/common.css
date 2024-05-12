@@ -49,8 +49,9 @@ footer {
   background-color: lightgray;
 }
 footer p {
-  padding: 15px;
+  padding: 15px 0px;
   text-align: center;
+  line-height: 1.5;
 }
 /* 画像拡大 */
 #grayDisplay {
