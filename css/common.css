@@ -46,7 +46,11 @@ p{
   padding: 60px;
 }
 footer {
-  margin: 10px auto;
+  padding: 10px auto;
+  backgroud-color: darkgray;
+}
+footer p {
+  margin: auto;
 }
 /* 画像拡大 */
 #grayDisplay {
