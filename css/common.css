@@ -47,7 +47,7 @@ p{
 }
 footer {
   background-color: lightgray;
-  position: fixed;
+  position: sticky;
 }
 footer p {
   padding: 15px 0px;
