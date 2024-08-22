@@ -26,8 +26,8 @@ p{
   font-size: 1.1vh;
   font-family: "M PLUS 1 Code", monospace;
 }
-img #proflile {
-    width: 5%;
+#proflile {
+    width: 5vh;
 }
 /* グリッド */
 .course-wrapper {
